@@ -1,0 +1,35 @@
+*{
+    justify-content: center;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: wrap;
+    border: border-box;
+    background-color: rgb(177, 247, 65);
+  }
+  .card {
+    width: 24%;
+    margin: 1rem;
+  }
+  #users{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0.5em;
+  }
+  
+   table{
+    border-collapse: collapse;
+    border: 2px solid #ccc;
+    width: 100%;
+  }
+  
+  td, tr{
+    border: 1px solid #ccc;
+    padding: 5px;
+  } 
+  
+  body{
+    background-color: #f2f2f2;
+    font-size: large;
+  }
+  
